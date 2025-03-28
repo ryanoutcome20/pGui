@@ -1,3 +1,20 @@
+-- Leftside Docked Panels
+--    pGui:GenerateButton( Panel, Text, Callback, marginCallback )
+--    pGui:GenerateCheckbox( Panel, Text, Assignment, Callback )
+--    pGui:GenerateLabel( Panel, Text )
+
+-- Rightside Docked Panels (parented to leftside panels)
+--    pGui:GenerateKeybind( Panel, Assignment, Mode, Callback )
+--    pGui:GenerateColorpicker( Panel, Assignment, Default, Callback )
+--    pGui:GenerateDropdown( Panel, Assignment, Index, Options, Width, useSort, useIndex, Callback )
+--    pGui:GenerateInput( Panel, Text, Assignment, Callback )
+--    pGui:GenerateMiniCheckbox( Panel, Tooltip, Assignment, Time, Callback )
+--    pGui:GenerateSlider( Panel, Assignment, Minimum, Maximum, Default, Decimals, noLabel, Prefix, Callback )
+
+-- Custom Panels (these require some effort to build)
+--    pGui:GenerateList( Panel, Name, Callback, createdCallback )
+--    pGui:GenerateDraggable( Panel, Title, X, Y, W, H )
+
 -- Call initializer.
 pGui:Init( {
     { Title = 'Example', Height = 500, Single = false },
