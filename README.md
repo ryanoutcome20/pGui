@@ -29,9 +29,9 @@ You can install pGui via the [releases](https://github.com/ryanoutcome20/pGui/re
    git clone https://github.com/ryanoutcome20/pgui.git
    ```
 2. Including in your project:
-  ```lua
-  include( 'pGui/menu.lua' )
-  ```
+   ```lua
+   include( 'pGui/menu.lua' )
+   ```
 
 ## Usage / Form
 
