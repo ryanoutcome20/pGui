@@ -1,4 +1,4 @@
-# pGui
+# pGui 💻
 
 ## Overview
 
